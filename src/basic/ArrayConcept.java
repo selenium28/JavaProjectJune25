@@ -24,7 +24,10 @@ public class ArrayConcept {
 		double d[] = new double[10];
 		d[1] = 33.33;
 		
-		
+		Object obj[] = new Object[10];
+		obj[0] = 1;
+		obj[1] = 33.33;
+		obj[2] = "Java";
 
 	}
 
