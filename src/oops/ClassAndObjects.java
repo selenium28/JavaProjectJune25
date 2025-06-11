@@ -10,12 +10,12 @@ public class ClassAndObjects {
 //		ClassAndObjects() - constructor
 //		new ClassAndObjects();  - Object
 		ClassAndObjects object = new ClassAndObjects();
+		ClassAndObjects.run();
 		object.drink();
-		object.run();
-
+		object.sleep();
 	}
 	
-	public void run() {
+	public static void run() {
 		System.out.println("Display method");
 	}
 	
