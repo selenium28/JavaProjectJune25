@@ -14,8 +14,8 @@ public class EncapsulationClass { // data hiding
 		return empID;
 	}
 
-	public void setEmpID(int emp) {
-		empID = emp;
+	public void setEmpID(int empID) {
+		this.empID = empID;
 	}
 
 	public double getSalary() {
