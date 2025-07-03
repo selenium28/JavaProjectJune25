@@ -22,8 +22,8 @@ public class EncapsulationClass { // data hiding
 		return salary;
 	}
 
-	public void setSalary(double money) {
-		salary = money;
+	public void setSalary(double salary) {
+		this.salary = salary;
 	}
 
 	public String getName() {
